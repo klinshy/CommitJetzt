@@ -461,7 +461,68 @@
                  "width":32,
                  "x":64,
                  "y":544
+                }, 
+                {
+                 "height":0,
+                 "id":20,
+                 "name":"timeLeft",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"int",
+                         "value":25
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"remaining time"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":""
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":467.268081943606,
+                 "y":487.544014493427
+                }, 
+                {
+                 "height":60,
+                 "id":21,
+                 "name":"timeLeftDisplay",
+                 "properties":[
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"https:\/\/iw6tkif7th7yp5ax2ufzkl3kce0bcuys.lambda-url.us-east-1.on.aws\/?text=no timer&imageType=caption&width=88&height=24&color=yellow"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":120,
+                 "x":355.988851210108,
+                 "y":482.91708087518
                 }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":63,
+         "name":"configuration",
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -542,8 +603,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":63,
- "nextobjectid":20,
+ "nextlayerid":64,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -572,7 +633,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
